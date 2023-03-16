@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "f_name": "Bash",
+      "l_name": "Bissu",
+      "designation": "UI",
+      "location": "California"
+    },
+    {
+      "id": "2",
+      "f_name": "Prabin",
+      "l_name": "Dalla",
+      "designation": "QA",
+      "location": "Texas"
+    },
+    {
+      "id": "3",
+      "f_name": "Krit",
+      "l_name": "Rana",
+      "designation": "Lead UI",
+      "location": "New Jersey"
+    },
+    {
+      "id": "4",
+      "f_name": "Rambo",
+      "l_name": "Ram",
+      "designation": "Project Manager",
+      "location": "Ohio"
+    },
+    {
+      "id": "5",
+      "f_name": "yeti",
+      "l_name": "Airlines",
+      "designation": "flight",
+      "location": "Pokhara"
+    }
+  ]
+}
