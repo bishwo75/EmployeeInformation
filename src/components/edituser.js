@@ -22,8 +22,7 @@ const Edituser = () => {
   };
     useEffect(()=> {
     axios.get("http://localhost:4000/employees/" + id)
-    .then((res)=>{
-        console.log('Sunny on Phone')
+    .then((res)=>{        
         console.log(res);
         setId(res.data.id);
         setFirstname(res.data.f_name);
@@ -31,7 +30,7 @@ const Edituser = () => {
         setDesignation(res.data.designation);
         setLocation(res.data.location); 
     })
-    });
+    },[]);
     function Submit(e) {
         e.preventDefault();
         axios.put('http://localhost:4000/employees/' + id, data)

@@ -13,7 +13,7 @@ const Deleteuser = () => {
         .then((res)=> setEmployees(res.data))
         .catch((err) => console.log(err))
     })
-    //It's a custom hook and we do not want to asign the url with any variables 
+    
     function deluser() {
         axios.delete('http://localhost:4000/employees/' + id)
         .then(alert("Employee Information Deleted"), navigate('/home'))        
